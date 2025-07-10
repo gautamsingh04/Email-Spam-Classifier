@@ -50,12 +50,17 @@ A machine learning-based web application that classifies SMS or email text as **
 ### 1️⃣ Clone the Repository
 
 ```bash
+
+```
 git clone https://github.com/your-username/sms-spam-classifier.git
 cd sms-spam-classifier
+```bash
 
 pip install -r requirements.txt
 
 streamlit run app.py
+```
+```bash
 
 .
 ├── app.py               # Streamlit app
@@ -64,5 +69,26 @@ streamlit run app.py
 ├── spam.csv             # Dataset
 ├── requirements.txt     # Dependencies
 └── README.md
+```
+```bash
+
+📌 Example Spam Messages
+"🎁 Congratulations! You've won a free iPhone. Claim now at http://bit.ly/xyz"
+
+"🚨 Your bank account is suspended. Click here to verify your identity immediately!"
+
+"Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)"
+
+👤 Author
+Gautam Jyala
+BTech | Developer | ML Enthusiast
+
+---
+
+### ✅ requirements.txt (create a separate file)
+
+Create a file named `requirements.txt` and paste this:
+
+
 
 
