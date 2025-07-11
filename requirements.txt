@@ -1,3 +1,8 @@
 streamlit
 nltk
 scikit-learn
+matplotlib
+seaborn
+pandas
+numpy
+wordcloud
